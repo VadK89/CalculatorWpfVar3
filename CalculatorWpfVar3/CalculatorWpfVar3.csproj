@@ -69,13 +69,13 @@
     <Compile Include="Models\Calculations\Cube.cs" />
     <Compile Include="Models\Calculations\Division.cs" />
     <Compile Include="Models\Calculations\Division1.cs" />
-    <Compile Include="Models\Calculations\Factorial.cs" />
+    <Compile Include="Models\Calculations\Factor.cs" />
     <Compile Include="Models\Calculations\LogarithmDec.cs" />
     <Compile Include="Models\Calculations\LogarithmNat.cs" />
     <Compile Include="Models\Calculations\Multiplication.cs" />
     <Compile Include="Models\Calculations\Sine.cs" />
-    <Compile Include="Models\Calculations\Sqr.cs" />
-    <Compile Include="Models\Calculations\Sqrt.cs" />
+    <Compile Include="Models\Calculations\Square.cs" />
+    <Compile Include="Models\Calculations\SqrRoot.cs" />
     <Compile Include="Models\Calculations\Subtraction.cs" />
     <Compile Include="Models\Calculations\Tangent.cs" />
     <Compile Include="Models\Calculations\InterFace\Interface.cs" />

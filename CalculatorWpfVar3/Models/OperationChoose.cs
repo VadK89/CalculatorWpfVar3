@@ -46,17 +46,17 @@ namespace CalculatorWpfVar3.Models
                 case CalcModel.Operationss.Division1:
                     calculateClass = new Division1();
                     break;
-                case CalcModel.Operationss.Sqr:
-                    calculateClass = new Sqr();
+                case CalcModel.Operationss.Square:
+                    calculateClass = new Square();
                     break;
-                case CalcModel.Operationss.Sqrt:
-                    calculateClass = new Sqrt();
+                case CalcModel.Operationss.SqrRoot:
+                    calculateClass = new SqrRoot();
                     break;
                 case CalcModel.Operationss.Cube:
                     calculateClass = new Cube();
                     break;
-                case CalcModel.Operationss.Factorial:
-                    calculateClass = new Factorial();
+                case CalcModel.Operationss.Factor:
+                    calculateClass = new Factor();
                     break;
             }
 

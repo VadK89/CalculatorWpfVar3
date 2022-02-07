@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace CalculatorWpfVar3.Models.Calculations
 {
-    public class Sqr : ICalculable
+    public class Square : ICalculable
     {
         public double Calculate(List<double> values)
         {
-            return Math.Pow((values[values.Count - 1]), 2);
+            return Math.Pow(values[values.Count - 1], 2);
         }
     }
 }

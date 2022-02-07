@@ -11,7 +11,11 @@ namespace CalculatorWpfVar3.Models.Calculations
     {
         public double Calculate(List<double> values)
         {
-            return Math.Tan(values[values.Count - 1]);
+            return Math.Tan(DegreeToRadian(values[values.Count - 1]));
+        }
+        private double DegreeToRadian(double angle)
+        {
+            return Math.PI * angle / 180.0;
         }
     }
 }

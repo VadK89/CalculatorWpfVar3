@@ -39,16 +39,16 @@
                     selectedOperator = CalcModel.Operationss.Division1;
                     break;
                 case "^2":
-                    selectedOperator = CalcModel.Operationss.Sqr;
+                    selectedOperator = CalcModel.Operationss.Square;
                     break;
                 case "√":
-                    selectedOperator = CalcModel.Operationss.Sqrt;
+                    selectedOperator = CalcModel.Operationss.SqrRoot;
                     break;
                 case "^3":
                     selectedOperator = CalcModel.Operationss.Cube;
                     break;
                 case "!x":
-                    selectedOperator = CalcModel.Operationss.Factorial;
+                    selectedOperator = CalcModel.Operationss.Factor;
                     break;
 
                 default:

@@ -18,7 +18,7 @@ namespace CalculatorWpfVar3.Models
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(PropertyName));
         }
 
-        public enum Operationss { None, Addition, Subtraction, Multiplication, Division, LogarithmDec, LogarithmNat, Sine, Cosine, Tangent, Division1, Sqr, Sqrt, Cube, Factorial };
+        public enum Operationss { None, Addition, Subtraction, Multiplication, Division, LogarithmDec, LogarithmNat, Sine, Cosine, Tangent, Division1, Square, SqrRoot, Cube, Factor };
         
         private string mainDisp;
         private Func<List<double>, double> calcFunc;

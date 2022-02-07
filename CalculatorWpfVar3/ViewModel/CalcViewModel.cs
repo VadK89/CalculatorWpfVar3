@@ -204,7 +204,7 @@ namespace CalculatorWpfVar3.ViewModel
 
                 CalcModel.CalcHistory = CalcModel.OperandsToCalculate[CalcModel.OperandsToCalculate.Count - 1] + " " + buttonContent;
 
-                if (CalcModel.SelectedOperation == CalcModel.Operationss.Sqrt)
+                if (CalcModel.SelectedOperation == CalcModel.Operationss.SqrRoot)
                     StartCalculation(functionCalledFrom);
             }
         }

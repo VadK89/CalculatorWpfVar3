@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CalculatorWpfVar3.Models.Calculations
 {
-    public class Sqrt : ICalculable
+    public class SqrRoot : ICalculable
     {
         public double Calculate(List<double> values)
         {
